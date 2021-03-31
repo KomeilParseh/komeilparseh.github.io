@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="وبلاگی برای نوشتن از هرچیز مربوط به تکنولوژی">
+    <meta name="keywords" content="بلاگ, برنامه نویسی, برنامه‌نویسی, گیت‌هاب, گیت هاب, تقلب‌‌نامه,تقلب نامه, گیت">
+
+    <title>git cheat sheet</title>
+    <link rel="stylesheet" href="https://unpkg.com/sakura.css/css/sakura-earthly.css" type="text/css">
+    <link rel="stylesheet" href="../../../assest/css/style.css" type="text/css">
+
+
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+
+            <h1 align="right" class="title">
+                تقلب نامه گیت
+            </h1>
+            <p align="left"><strong>۱۴۰۰ &#x2F; فروردین &#x2F; ۱۱ </strong></p>
+            <hr />
+            <h4 align="right" class="title">
+                لیست برخی از کامند های گیت
+            </h4>
+            <ul>
+                <li>
+                    <p>git init</p>
+                    <blockquote>
+                        <p dir="rtl" align="right">شروع کار با git</p>
+                    </blockquote>
+                </li>
+                <li>
+                    <p>git add fileName</p>
+                    <blockquote>
+                        <p dir="rtl" align="right">افزودن فایل به git</p>
+                    </blockquote>
+                </li>
+                <li>
+                    <p>git add -A</p>
+                    <blockquote>
+                        <p dir="rtl" align="right">اضافه کردن همه فایل‌ها به git</p>
+                    </blockquote>
+                </li>
+                <li>
+                    <p>git log</p>
+                    <blockquote>
+                        <p dir="rtl" align="right">commit ها را نمایش میدهد</p>
+                    </blockquote>
+                </li>
+                <li>
+                    <p>git commit -m &quot;description&quot;</p>
+                    <blockquote>
+                        <p dir="rtl" align="right">کامیت کردن تغییرات با توضیحات</p>
+                    </blockquote>
+                </li>
+                <li>
+                    <p>git status</p>
+                    <blockquote>
+                        <p dir="rtl" align="right">نمایش وضعیت</p>
+                    </blockquote>
+                </li>
+                <li>
+                    <p>git reset fileName</p>
+                    <blockquote>
+                        <p dir="rtl" align="right">خارج کردن فایل از حالت stage</p>
+                    </blockquote>
+                </li>
+                <li>
+                    <p>git diff HEAD</p>
+                    <blockquote>
+                        <p dir="rtl" align="right">نمایش وضعیت فعلی نسبت به وضعیت آخرین کامیت</p>
+                    </blockquote>
+                </li>
+                <li>
+                    <p>git diff --staged</p>
+                    <blockquote>
+                        <p dir="rtl" align="right">نمایش وضعیت فعلی نسبت به وضعیت stage</p>
+                    </blockquote>
+                </li>
+                <li>
+                    <p>git checkout --fileName</p>
+                    <blockquote>
+                        <p dir="rtl" align="right">فایل را از آخرین کامیت استخراج کرده و جایگزین فایل فعلی می کند</p>
+                    </blockquote>
+                </li>
+                <li>
+                    <p>git branch </p>
+                    <blockquote>
+                        <p dir="rtl" align="right">نمایش شاخه‌های موجود</p>
+                    </blockquote>
+                </li>
+                <li>
+                    <p>git branch branchName</p>
+                    <blockquote>
+                        <p dir="rtl" align="right">ساخت شاخه جدید با نام تعیین شده</p>
+                    </blockquote>
+                </li>
+                <li>
+                    <p>git checkout branchName</p>
+                    <blockquote>
+                        <p dir="rtl" align="right">سوئیچ کردن از شاخه فعلی به شاخه تعیین شده</p>
+                    </blockquote>
+                </li>
+                <li>
+                    <p>git merge branchName</p>
+                    <blockquote>
+                        <p dir="rtl" align="right">شاخه مذکور را با شاخه فعلی ادغام می کند</p>
+                    </blockquote>
+                </li>
+                <li>
+                    <p>git rm fileName</p>
+                    <blockquote>
+                        <p dir="rtl" align="right">حذف فایل از git و از فایل سیستم</p>
+                    </blockquote>
+                </li>
+                <li>
+                    <p>git branch -d branchName</p>
+                    <blockquote>
+                        <p dir="rtl" align="right">حذف شاخه</p>
+                    </blockquote>
+                </li>
+                <li>
+                    <p>git push origin master</p>
+                    <blockquote>
+                        <p dir="rtl" align="right">شاخه master را به origin ارسال می کند</p>
+                    </blockquote>
+                </li>
+                <li>
+                    <p>git pull origin master</p>
+                    <blockquote>
+                        <p dir="rtl" align="right">شاخه master را از origin دریافت می کند</p>
+                    </blockquote>
+                </li>
+                <li>
+                    <p>git remote </p>
+                    <blockquote>
+                        <p dir="rtl" align="right">نمایش remote</p>
+                    </blockquote>
+                </li>
+                <li>
+                    <p>git remote add origin url</p>
+                    <blockquote>
+                        <p dir="rtl" align="right">افزودن remote با آدرس تعیین شده و نام origin</p>
+                    </blockquote>
+                </li>
+                <li>
+                    <p>git show commitID</p>
+                    <blockquote>
+                        <p dir="rtl" align="right">نمایش جزئیات commit با شناسه تعیین شده</p>
+                    </blockquote>
+                </li>
+                <li>
+                    <p>git tag</p>
+                    <blockquote>
+                        <p dir="rtl" align="right">نمایش تگ ها</p>
+                    </blockquote>
+                </li>
+                <li>
+                    <p>git tag -a tagName -m &quot;description</p>
+                    <blockquote>
+                        <p dir="rtl" align="right">افزودن تگ با نام و توضیحات تعیین شده</p>
+                    </blockquote>
+                </li>
+                <li>
+                    <p>git show tagName</p>
+                    <blockquote>
+                        <p dir="rtl" align="right">نمایش جزئیات تگ</p>
+                    </blockquote>
+                </li>
+                <li>
+                    <p>git blame fileName -L lineNumber</p>
+                    <blockquote>
+                        <p dir="rtl" align="right">مشاهده اینکه از خط مذکور تا انتهای فایل را چه کسی نوشته است</p>
+
+                    </blockquote>
+                </li>
+                <li>
+                    <p>git blame fileName -L lineNumber</p>
+                    <blockquote>
+                        <p dir="rtl" align="right">مشاهده اینکه خط مذکور را چه کسی نوشته است</p>
+                    </blockquote>
+                </li>
+            </ul>
+
+            <ul>
+                <li>
+                    <p>git bisect </p>
+                    <blockquote>
+                        <p dir="rtl" align="right">برای debug به کار می رود</p>
+                    </blockquote>
+                </li>
+                <li>
+                    <p>git config </p>
+                    <blockquote>
+                        <p dir="rtl" align="right">برای تنظیمات ابزار به کار می رود. مانند مشخصات نویسده و همچنین
+                            تنظیمات مربوط
+                            به
+                            پراکسی برای کلاینت گیت</p>
+
+                    </blockquote>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <div class="footer">
+        <navbar style="margin-left: 1%;">
+            <a href='https:&#x2F;&#x2F;komeilparseh.github.io'>En</a> |
+            <a href='https:&#x2F;&#x2F;komeilparseh.github.io&#x2F;fa'>Main Page</a> |
+            <a href='https:&#x2F;&#x2F;komeilparseh.github.io&#x2F;fa&#x2F;blog'>Blog Posts</a> |
+            <a href='https://github.com/KomeilParseh/KomeilParseh.github.io'>Source Code</a>
+        </navbar>
+    </div>
+</body>
+
+</html>
