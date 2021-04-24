@@ -220,5 +220,6 @@ Procfile    text
 *.wwaproj   merge=binary
 
 ## Language
-* linguist-language=javascript
-
+#*.js linguist-detectable=true
+#*.css linguist-detectable=true
+#*.html linguist-detectable=true
