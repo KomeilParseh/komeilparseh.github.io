@@ -127,7 +127,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-
-database.db
-config.py
-*fandogh*
+.vscode

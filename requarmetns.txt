@@ -1,0 +1,8 @@
+pelican
+markdown
+ghp-import
+invoke
+pysvg
+pygments
+requests
+webassets
