@@ -6,7 +6,10 @@ SITENAME = 'Komeil Parseh'
 SITEURL = ''
 
 PATH = 'content'
-
+STATIC_PATHS = [
+    'images',
+    'extra',  # this
+]
 TIMEZONE = 'Asia/Tehran'
 
 DEFAULT_LANG = 'en'
@@ -26,8 +29,8 @@ LINKS = (('Pelican', 'https://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('twitter', 'http://twitter.com/@komeilparseh'),
-          ('github', 'https://github.com/komeilparseh'),)
+SOCIAL = (('You can add links in your config file', '#'),
+          ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = False
 
@@ -64,3 +67,8 @@ MENUITEMS = (
     ('GitHub', 'https://github.com/komeilparseh'),
     ('Persian Blog', 'https://virgool.io/@parseh'),
 )
+
+EXTRA_PATH_METADATA = {
+    'extra/robots.txt': {'path': 'robots.txt'},
+    'extra/favicon.ico': {'path': 'favicon.ico'},  # and this
+}
