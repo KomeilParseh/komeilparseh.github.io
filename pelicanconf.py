@@ -72,6 +72,7 @@ MENUITEMS = (
 EXTRA_PATH_METADATA = {
     'extra/robots.txt': {'path': 'robots.txt'},
     'extra/favicon.ico': {'path': 'favicon.ico'},  # and this
+    'extra/.htaccess':{"path":".htaccess"}
 }
 
 # URL setting
