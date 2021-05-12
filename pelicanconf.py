@@ -51,10 +51,10 @@ DISPLAY_HOME = True
 DISPLAY_MENU = True
 
 # provided as examples, they make ‘clean’ urls. used by MENU_INTERNAL_PAGES.
-TAGS_URL = 'tags/{slug}'
-TAGS_SAVE_AS = 'tags/index.html'
-CATEGORIES_URL = 'categories/{slug}'
-CATEGORIES_SAVE_AS = 'categories/index.html'
+TAGS_URL = 'tags/{slug}/'
+TAGS_SAVE_AS = 'tags/{slug}/index.html'
+CATEGORIES_URL = 'categories/{slug}/'
+CATEGORIES_SAVE_AS = 'categories/{slug}/index.html'
 
 # Generate links to categories and tags following the same structure but without the .html extension
 
