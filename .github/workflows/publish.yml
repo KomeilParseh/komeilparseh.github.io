@@ -25,7 +25,7 @@ jobs:
         run: |
           git checkout main
           git pull
-          git git submodule update --init --recursive
+          git submodule update --init --recursive
       # Runs a single command using the runners shell
       - name: install requirements
         run: |
