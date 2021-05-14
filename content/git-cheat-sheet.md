@@ -52,7 +52,8 @@ Summary:Some important git commands
 `git branch`
 
 - Show existing branches
-  `git branch branchName`
+
+`git branch branchName`
 
 - Build a new branch with the specified name
 
