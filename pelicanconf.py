@@ -42,7 +42,7 @@ THEME = 'blue-penguin'
 # all the following settings are *optional*
 
 # HTML metadata
-SITEDESCRIPTION = ''
+SITEDESCRIPTION = 'A blog for writing anything related to technology'
 
 # all defaults to True.
 DISPLAY_HEADER = True

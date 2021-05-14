@@ -5,7 +5,7 @@ Category:tecnology
 Tags:tecnology,programin,git
 Slug:git cheat sheet
 Authors:komeilParseh
-Summary:Some important git commands
+description:Some important git commands
 
 ## List of git commands
 

@@ -5,7 +5,7 @@ Category:programing
 Tags:tecnology,programin,python,mozlink
 Slug:Mozlink
 Authors:komeilParseh
-Summary:A program to build shortLinks
+description:A program to build shortLinks
 
 # mozlink
 

@@ -5,6 +5,6 @@ Category:tecnology
 Tags:tecnology,programin
 Slug:Index Site
 Authors:komeilParseh
-Summary:A blog for writing anything related to technology
+description:A blog for writing anything related to technology
 
 # A blog for writing anything related to technology

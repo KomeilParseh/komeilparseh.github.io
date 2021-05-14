@@ -5,7 +5,7 @@ Category:programing
 Tags:tecnology,programin,python
 Slug:Read docx file with python in command line
 Authors:komeilParseh
-Summary:Read docx file with python in command line
+description:Read docx file with python in command line
 
 ## prerequisites:
 
