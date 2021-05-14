@@ -51,12 +51,16 @@ DISPLAY_HOME = True
 DISPLAY_MENU = True
 
 # provided as examples, they make ‘clean’ urls. used by MENU_INTERNAL_PAGES.
-TAGS_URL = 'tags/{slug}/'
-TAGS_SAVE_AS = 'tags/{slug}/index.html'
-CATEGORIES_URL = 'categories/{slug}/'
-CATEGORIES_SAVE_AS = 'categories/{slug}/index.html'
-
+TAGS_URL = 'tags/'
+TAGS_SAVE_AS = 'tags/index.html'
+CATEGORIES_URL = 'categories/'
+CATEGORIES_SAVE_AS = 'categories/index.html'
 # Generate links to categories and tags following the same structure but without the .html extension
+
+TAG_URL = 'tags/{slug}/'
+TAG_SAVE_AS = 'tags/{slug}/index.html'
+category_URL = 'categories/{slug}/'
+category_SAVE_AS = 'categories/{slug}/index.html'
 
 # use those if you want pelican standard pages to appear in your menu
 MENU_INTERNAL_PAGES = (
@@ -72,7 +76,7 @@ MENUITEMS = (
 EXTRA_PATH_METADATA = {
     'extra/robots.txt': {'path': 'robots.txt'},
     'extra/favicon.ico': {'path': 'favicon.ico'},  # and this
-    'extra/.htaccess':{"path":".htaccess"}
+    'extra/.htaccess': {"path": ".htaccess"}
 }
 
 # URL setting
