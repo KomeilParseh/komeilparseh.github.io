@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://komeilparseh.github.io/sitemap.xml
