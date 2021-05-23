@@ -90,9 +90,3 @@ AUTHORS_URL = 'authors/'
 AUTHORS_SAVE_AS = 'authors/index.html'
 ARCHIVES_URL = 'archives/'
 ARCHIVES_SAVE_AS ='archives/index.html'
-
-
-
-
-
-
