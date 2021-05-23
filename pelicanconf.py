@@ -20,8 +20,8 @@ DEFAULT_LANG = 'en'
 FEED_ALL_ATOM = True
 CATEGORY_FEED_ATOM = True
 TRANSLATION_FEED_ATOM = None
-AUTHOR_FEED_ATOM = False
-AUTHOR_FEED_RSS = Falae
+AUTHOR_FEED_ATOM = None
+AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (('Pelican', 'https://getpelican.com/'),
