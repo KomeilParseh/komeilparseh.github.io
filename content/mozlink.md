@@ -1,6 +1,6 @@
 Title:Mozlink!
 Date:2021-5-4-21:00
-Modified:2021-5-4-21:00
+Modified:2021-5-23-13:21
 Category:programing
 Tags:tecnology,programin,python,mozlink
 Slug:Mozlink
@@ -24,16 +24,15 @@ Note: Sometimes links may **not work** due to site updates.
 
 `git clone https://github.com/KomeilParseh/mozlink.git && cd mozlink`
 
-3. in the app folder, rename the `config.py.sample` to `config.py` and do proper changes.
-4. Create a virtualenv named venv using
+3. Create a virtualenv named venv using
 
 `virtualenv -p python3 venv`
 
-5. Connect to virtualenv using
+4. Connect to virtualenv using
 
 `source venv/bin/activate`
 
-6. From the project folder, install packages using
+5. From the project folder, install packages using
 
 `pip install -r requirements.txt`
 
