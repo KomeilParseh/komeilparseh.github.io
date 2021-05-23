@@ -20,6 +20,7 @@ Note: Sometimes links may **not work** due to site updates.
 ## How to run
 
 1. Install python3, pip3, virtualenv in your system.
+
 2. Clone the project
 
 `git clone https://github.com/KomeilParseh/mozlink.git && cd mozlink`
