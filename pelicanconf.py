@@ -5,6 +5,7 @@ AUTHOR = 'Komeil Parseh'
 SITENAME = 'Komeil Parseh'
 SITEURL = ''
 
+GOOGLE_ANALYTICS = 'bnZpuUMrdM-_RFKk-SGTLCMLJXR8wh27Ui4DRVovSlM'
 PATH = 'content'
 STATIC_PATHS = [
     'images',
