@@ -17,11 +17,11 @@ DEFAULT_LANG = 'en'
 
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
+FEED_ALL_ATOM = True
+CATEGORY_FEED_ATOM = True
 TRANSLATION_FEED_ATOM = None
-AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = None
+AUTHOR_FEED_ATOM = False
+AUTHOR_FEED_RSS = Falae
 
 # Blogroll
 LINKS = (('Pelican', 'https://getpelican.com/'),
@@ -63,11 +63,23 @@ CATEGORY_URL = 'categories/{slug}/'
 TAG_SAVE_AS = 'tags/{slug}/index.html'
 TAG_URL = 'tags/{slug}/'
 
+ARTICLE_URL = 'posts/{date:%Y}/{date:%b}/{date:%d}/{slug}/'
+ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%b}/{date:%d}/{slug}/index.html'
+PAGE_URL = 'pages/{slug}/'
+PAGE_SAVE_AS = 'pages/{slug}/index.html'
+
+AUTHORS_URL = 'authors/'
+AUTHORS_SAVE_AS = 'authors/index.html'
+ARCHIVES_URL = 'archives/'
+ARCHIVES_SAVE_AS ='archives/index.html'
+
 # use those if you want pelican standard pages to appear in your menu
 MENU_INTERNAL_PAGES = (
     ('Tags', TAGS_URL, TAGS_SAVE_AS),
     ('Categories', CATEGORIES_URL, CATEGORIES_SAVE_AS),
+    ('Archives', ARCHIVES_URL, ARCHIVES_SAVE_AS),
 )
+
 # additional menu items
 MENUITEMS = (
     ('GitHub', 'https://github.com/komeilparseh'),
@@ -79,14 +91,3 @@ EXTRA_PATH_METADATA = {
     'extra/favicon.ico': {'path': 'favicon.ico'},  # and this
     'extra/sitemap.xml':{'path':'sitemap.xml'}
 }
-
-# URL setting
-ARTICLE_URL = 'posts/{date:%Y}/{date:%b}/{date:%d}/{slug}/'
-ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%b}/{date:%d}/{slug}/index.html'
-PAGE_URL = 'pages/{slug}/'
-PAGE_SAVE_AS = 'pages/{slug}/index.html'
-
-AUTHORS_URL = 'authors/'
-AUTHORS_SAVE_AS = 'authors/index.html'
-ARCHIVES_URL = 'archives/'
-ARCHIVES_SAVE_AS ='archives/index.html'
