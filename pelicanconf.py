@@ -15,16 +15,17 @@ TIMEZONE = 'Asia/Tehran'
 DEFAULT_LANG = 'en'
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
-AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = None
+AUTHOR_FEED_ATOM = None # here you can put something like 'feeds/%s.author.xml'
+AUTHOR_FEED_RSS = None # here you can put something like 'feeds/%s.author.xml'
+FEED_ALL_ATOM = 'feeds/all.atom.xml'
+TAG_FEED_ATOM = 'feeds/.{slug}.tag.atom.xml'
+CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
 
 # Blogroll
 LINKS = (('Pelican', 'https://getpelican.com/'),
          ('Python.org', 'https://www.python.org/'),
          ('Jinja2', 'https://palletsprojects.com/p/jinja/'),
+         ('RSS', "feeds/all.atom.xml"),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
@@ -82,6 +83,7 @@ MENU_INTERNAL_PAGES = (
 MENUITEMS = (
     ('GitHub', 'https://github.com/komeilparseh'),
     ('Persian Blog', 'https://virgool.io/@parseh'),
+    ['RSS', "feeds/all.atom.xml"],
 )
 
 EXTRA_PATH_METADATA = {
