@@ -15,8 +15,8 @@ TIMEZONE = 'Asia/Tehran'
 DEFAULT_LANG = 'en'
 
 # Feed generation is usually not desired when developing
-AUTHOR_FEED_ATOM = None # here you can put something like 'feeds/%s.author.xml'
-AUTHOR_FEED_RSS = None # here you can put something like 'feeds/%s.author.xml'
+AUTHOR_FEED_ATOM = None
+AUTHOR_FEED_RSS = None
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 TAG_FEED_ATOM = 'feeds/{slug}.tag.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
