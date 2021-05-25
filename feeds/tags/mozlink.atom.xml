@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Komeil Parseh - programing</title><link href="/" rel="alternate"></link><link href="/feeds/programing.atom.xml" rel="self"></link><id>/</id><updated>2021-05-23T13:21:00+04:30</updated><entry><title>Mozlink!</title><link href="/posts/2021/May/04/Mozlink/" rel="alternate"></link><published>2021-05-04T21:00:00+04:30</published><updated>2021-05-23T13:21:00+04:30</updated><author><name>komeilParseh</name></author><id>tag:None,2021-05-04:/posts/2021/May/04/Mozlink/</id><summary type="html">&lt;h1&gt;mozlink&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Komeil Parseh - mozlink</title><link href="/" rel="alternate"></link><link href="/feeds/tags/mozlink.atom.xml" rel="self"></link><id>/</id><updated>2021-05-23T13:21:00+04:30</updated><entry><title>Mozlink!</title><link href="/posts/2021/May/04/Mozlink/" rel="alternate"></link><published>2021-05-04T21:00:00+04:30</published><updated>2021-05-23T13:21:00+04:30</updated><author><name>komeilParseh</name></author><id>tag:None,2021-05-04:/posts/2021/May/04/Mozlink/</id><summary type="html">&lt;h1&gt;mozlink&lt;/h1&gt;
 &lt;p&gt;&lt;img alt="logo" src="https://raw.githubusercontent.com/KomeilParseh/mozlink/main/app/static/logo.png"&gt;&lt;/p&gt;
 &lt;p&gt;A program to build &lt;strong&gt;shortLinks&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://mozlink-komeilparseh.fandogh.cloud/"&gt;mozlink-komeilparseh.fandogh.cloud&lt;/a&gt; Temporary (perhaps permanent!) service link.&lt;/p&gt;
@@ -45,20 +45,4 @@
 &lt;ol&gt;
 &lt;li&gt;Now environment is ready. Run it by&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;code&gt;python app/main.py&lt;/code&gt;&lt;/p&gt;</content><category term="programing"></category><category term="tecnology"></category><category term="programin"></category><category term="python"></category><category term="mozlink"></category></entry><entry><title>Read docx file with python in command line</title><link href="/posts/2021/May/01/Read%20docx%20file%20with%20python%20in%20command%20line/" rel="alternate"></link><published>2021-05-01T15:00:00+04:30</published><updated>2021-05-01T15:00:00+04:30</updated><author><name>komeilParseh</name></author><id>tag:None,2021-05-01:/posts/2021/May/01/Read docx file with python in command line/</id><content type="html">&lt;h2&gt;prerequisites:&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="http://python.org/"&gt;python3&lt;/a&gt; download And install form &lt;a href="https://www.python.org/downloads/"&gt;hare&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://click.palletsprojects.com/"&gt;python click&lt;/a&gt;
-  &lt;code&gt;pip3 install click&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://python-docx.readthedocs.io/en/latest/"&gt;python docx&lt;/a&gt;
-  &lt;code&gt;pip3 install python-docx&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;Usage:&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;python docx_read.py path/to/file&lt;/li&gt;
-&lt;/ul&gt;
-&lt;script src="https://gist.github.com/KomeilParseh/52093f55788fc184ee23ee4c5e9b05e4.js"&gt;&lt;/script&gt;</content><category term="programing"></category><category term="tecnology"></category><category term="programin"></category><category term="python"></category></entry></feed>
+&lt;p&gt;&lt;code&gt;python app/main.py&lt;/code&gt;&lt;/p&gt;</content><category term="programing"></category><category term="tecnology"></category><category term="programin"></category><category term="python"></category><category term="mozlink"></category></entry></feed>
