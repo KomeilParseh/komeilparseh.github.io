@@ -83,7 +83,7 @@ MENU_INTERNAL_PAGES = (
 MENUITEMS = (
     ('GitHub', 'https://github.com/komeilparseh'),
     ('Persian Blog', 'https://virgool.io/@parseh'),
-    ['RSS', "feeds/all.atom.xml"],
+    ['RSS', "feeds/all.atom.xml",  'fa-rss'],
 )
 
 EXTRA_PATH_METADATA = {
