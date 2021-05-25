@@ -78,13 +78,13 @@ MENU_INTERNAL_PAGES = (
     ('Tags', TAGS_URL, TAGS_SAVE_AS),
     ('Categories', CATEGORIES_URL, CATEGORIES_SAVE_AS),
     ('Archives', ARCHIVES_URL, ARCHIVES_SAVE_AS),
-    ('feed', 'feed/', 'feed'),
 )
 
 # additional menu items
 MENUITEMS = (
     ('GitHub', 'https://github.com/komeilparseh'),
     ('Persian Blog', 'https://virgool.io/@parseh'),
+    ('Feed', '/feed/'),
 )
 
 EXTRA_PATH_METADATA = {
