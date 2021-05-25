@@ -18,7 +18,7 @@ DEFAULT_LANG = 'en'
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
-TAG_FEED_ATOM = 'feeds/{slug}.tag.atom.xml'
+TAG_FEED_ATOM = 'feeds/{slug}.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
 
 # Blogroll
