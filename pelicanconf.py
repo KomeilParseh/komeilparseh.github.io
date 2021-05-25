@@ -18,7 +18,7 @@ DEFAULT_LANG = 'en'
 AUTHOR_FEED_ATOM = None # here you can put something like 'feeds/%s.author.xml'
 AUTHOR_FEED_RSS = None # here you can put something like 'feeds/%s.author.xml'
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
-TAG_FEED_ATOM = 'feeds/.{slug}.tag.atom.xml'
+TAG_FEED_ATOM = 'feeds/{slug}.tag.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
 
 # Blogroll
@@ -83,7 +83,7 @@ MENU_INTERNAL_PAGES = (
 MENUITEMS = (
     ('GitHub', 'https://github.com/komeilparseh'),
     ('Persian Blog', 'https://virgool.io/@parseh'),
-    ['RSS', "feeds/all.atom.xml",  'fa-rss'],
+    ['RSS', "feeds/all.atom.xml"],
 )
 
 EXTRA_PATH_METADATA = {
