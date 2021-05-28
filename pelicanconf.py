@@ -3,7 +3,7 @@
 
 AUTHOR = 'Komeil Parseh'
 SITENAME = 'Komeil Parseh'
-SITEURL = ''
+SITEURL = 'https://komeilparseh.github.io/'
 
 PATH = 'content'
 STATIC_PATHS = [
