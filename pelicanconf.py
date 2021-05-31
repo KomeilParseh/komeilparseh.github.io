@@ -62,8 +62,8 @@ CATEGORY_URL = 'categories/{slug}/'
 TAG_SAVE_AS = 'tags/{slug}/index.html'
 TAG_URL = 'tags/{slug}/'
 
-ARTICLE_URL = 'posts/{date:%Y}/{date:%b}/{date:%d}/{slug}/'
-ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%b}/{date:%d}/{slug}/index.html'
+ARTICLE_URL = '{date:%Y}/{date:%b}/{date:%d}/{slug}/'
+ARTICLE_SAVE_AS = '{date:%Y}/{date:%b}/{date:%d}/{slug}/index.html'
 PAGE_URL = 'pages/{slug}/'
 PAGE_SAVE_AS = 'pages/{slug}/index.html'
 
