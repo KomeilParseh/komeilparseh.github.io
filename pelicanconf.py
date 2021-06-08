@@ -8,7 +8,7 @@ SITEURL = 'https://komeilparseh.github.io/'
 PATH = 'content'
 STATIC_PATHS = [
     'images',
-    'extra',  # this
+    'extra',
 ]
 TIMEZONE = 'Asia/Tehran'
 
@@ -25,14 +25,14 @@ CATEGORY_FEED_ATOM = 'feeds/categories/{slug}.atom.xml'
 LINKS = (('Pelican', 'https://getpelican.com/'),
          ('Python.org', 'https://www.python.org/'),
          ('Jinja2', 'https://palletsprojects.com/p/jinja/'),
-         ('RSS', "feeds/all.atom.xml"),
+         ('RSS', "https://komeilparseh.github.com/feeds/all.atom.xml"),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
-DEFAULT_PAGINATION = False
+DEFAULT_PAGINATION = True
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
@@ -62,8 +62,8 @@ CATEGORY_URL = 'categories/{slug}/'
 TAG_SAVE_AS = 'tags/{slug}/index.html'
 TAG_URL = 'tags/{slug}/'
 
-ARTICLE_URL = '{date:%Y}/{date:%b}/{date:%d}/{slug}/'
-ARTICLE_SAVE_AS = '{date:%Y}/{date:%b}/{date:%d}/{slug}/index.html'
+ARTICLE_URL = 'blog/{date:%Y}/{date:%b}/{date:%d}/{slug}/'
+ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%b}/{date:%d}/{slug}/index.html'
 PAGE_URL = 'pages/{slug}/'
 PAGE_SAVE_AS = 'pages/{slug}/index.html'
 
