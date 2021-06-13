@@ -82,7 +82,7 @@ MENU_INTERNAL_PAGES = (
 # additional menu items
 MENUITEMS = (
     ('GitHub', 'https://github.com/komeilparseh'),
-    ('Persian Blog', 'https://virgool.io/@parseh'),
+    ('Persian Blog', 'https://virgool.io/@komeilparseh'),
     ['RSS', "https://KomeilParseh.github.io/feeds/all.atom.xml"],
 )
 
