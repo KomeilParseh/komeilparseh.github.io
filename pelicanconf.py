@@ -5,7 +5,7 @@ AUTHOR = 'Komeil Parseh'
 SITENAME = 'Komeil Parseh'
 SITEURL = 'https://komeilparseh.github.io/'
 
-PATH = 'content'
+PATH = 'content/Blog'
 STATIC_PATHS = [
     'images',
     'extra',

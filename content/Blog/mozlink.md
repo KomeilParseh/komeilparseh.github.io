@@ -11,7 +11,7 @@ description:A program to build shortLinks
 
 ![logo](https://raw.githubusercontent.com/KomeilParseh/mozlink/main/app/static/logo.png)
 
-A program to build **shortLinks**
+> A program to build **shortLinks**
 
 [mozlink-komeilparseh.fandogh.cloud](https://mozlink-komeilparseh.fandogh.cloud/) Temporary (perhaps permanent!) service link.
 
