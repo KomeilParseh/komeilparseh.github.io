@@ -33,8 +33,3 @@ jobs:
       - name: publish
         run: |
           make github
-          git checkout main
-          git config --global user.name publish
-          git config --global user.email <>
-          git commit -am "publish";
-          git push origin main;
