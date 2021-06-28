@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Komeil Parseh - mozlink</title><link href="https://komeilparseh.github.io/" rel="alternate"></link><link href="https://komeilparseh.github.io/feeds/tags/mozlink.atom.xml" rel="self"></link><id>https://komeilparseh.github.io/</id><updated>2021-05-23T13:21:00+04:30</updated><entry><title>Mozlink!</title><link href="https://komeilparseh.github.io/blog/2021/May/04/Mozlink/" rel="alternate"></link><published>2021-05-04T21:00:00+04:30</published><updated>2021-05-23T13:21:00+04:30</updated><author><name>komeilParseh</name></author><id>tag:komeilparseh.github.io,2021-05-04:/blog/2021/May/04/Mozlink/</id><summary type="html">&lt;h1&gt;mozlink&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Komeil Parseh - mozlink</title><link href="https://KomeilParseh.github.io/" rel="alternate"></link><link href="https://KomeilParseh.github.io/feeds/tags/mozlink.atom.xml" rel="self"></link><id>https://KomeilParseh.github.io/</id><updated>2021-05-23T13:21:00+04:30</updated><entry><title>Mozlink!</title><link href="https://KomeilParseh.github.io/blog/2021/May/04/Mozlink/" rel="alternate"></link><published>2021-05-04T21:00:00+04:30</published><updated>2021-05-23T13:21:00+04:30</updated><author><name>komeilParseh</name></author><id>tag:komeilparseh.github.io,2021-05-04:/blog/2021/May/04/Mozlink/</id><summary type="html">&lt;h1&gt;mozlink&lt;/h1&gt;
 &lt;p&gt;&lt;img alt="logo" src="https://raw.githubusercontent.com/KomeilParseh/mozlink/main/app/static/logo.png"&gt;&lt;/p&gt;
+&lt;blockquote&gt;
 &lt;p&gt;A program to build &lt;strong&gt;shortLinks&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;&lt;a href="https://mozlink-komeilparseh.fandogh.cloud/"&gt;mozlink-komeilparseh.fandogh.cloud&lt;/a&gt; Temporary (perhaps permanent!) service link.&lt;/p&gt;
 &lt;p&gt;Note: Sometimes links may &lt;strong&gt;not work&lt;/strong&gt; due to site updates.&lt;/p&gt;
 &lt;h2&gt;How to run&lt;/h2&gt;
@@ -17,7 +19,9 @@
 &lt;ol&gt;
 &lt;li&gt;Create a virtualenv …&lt;/li&gt;&lt;/ol&gt;</summary><content type="html">&lt;h1&gt;mozlink&lt;/h1&gt;
 &lt;p&gt;&lt;img alt="logo" src="https://raw.githubusercontent.com/KomeilParseh/mozlink/main/app/static/logo.png"&gt;&lt;/p&gt;
+&lt;blockquote&gt;
 &lt;p&gt;A program to build &lt;strong&gt;shortLinks&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;&lt;a href="https://mozlink-komeilparseh.fandogh.cloud/"&gt;mozlink-komeilparseh.fandogh.cloud&lt;/a&gt; Temporary (perhaps permanent!) service link.&lt;/p&gt;
 &lt;p&gt;Note: Sometimes links may &lt;strong&gt;not work&lt;/strong&gt; due to site updates.&lt;/p&gt;
 &lt;h2&gt;How to run&lt;/h2&gt;
