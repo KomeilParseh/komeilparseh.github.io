@@ -36,5 +36,5 @@ jobs:
           git checkout main
           git config --global user.name publish
           git config --global user.email <>
-          git commit -am "publish"
-          git push origin main
+          git commit -am "publish";
+          git push origin main;
