@@ -36,4 +36,4 @@ jobs:
           git config --global user.name publish
           git config --global user.email <>
           git add -A;git commit -m "publish"
-          git push
+          git push origin main
