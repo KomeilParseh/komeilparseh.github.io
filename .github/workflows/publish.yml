@@ -33,3 +33,7 @@ jobs:
       - name: publish
         run: |
           make github
+          git config --global user.name publish
+          git config --global user.email <>
+          git add -A;git commit -m "publish"
+          git push
