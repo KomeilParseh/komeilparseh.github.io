@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Komeil Parseh - tecnology</title><link href="https://KomeilParseh.github.io/" rel="alternate"></link><link href="https://KomeilParseh.github.io/feeds/tags/tecnology.atom.xml" rel="self"></link><id>https://KomeilParseh.github.io/</id><updated>2021-05-23T13:21:00+04:30</updated><entry><title>Mozlink!</title><link href="https://KomeilParseh.github.io/blog/2021/May/04/Mozlink/" rel="alternate"></link><published>2021-05-04T21:00:00+04:30</published><updated>2021-05-23T13:21:00+04:30</updated><author><name>komeilParseh</name></author><id>tag:komeilparseh.github.io,2021-05-04:/blog/2021/May/04/Mozlink/</id><summary type="html">&lt;h1&gt;mozlink&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Komeil Parseh - tecnology</title><link href="https://KomeilParseh.github.io/" rel="alternate"></link><link href="https://KomeilParseh.github.io/feeds/tags/tecnology.atom.xml" rel="self"></link><id>https://KomeilParseh.github.io/</id><updated>2021-06-18T13:21:00+04:30</updated><entry><title>Mozlink!</title><link href="https://KomeilParseh.github.io/blog/2021/May/04/Mozlink/" rel="alternate"></link><published>2021-05-04T21:00:00+04:30</published><updated>2021-06-18T13:21:00+04:30</updated><author><name>komeilParseh</name></author><id>tag:komeilparseh.github.io,2021-05-04:/blog/2021/May/04/Mozlink/</id><summary type="html">&lt;h1&gt;mozlink&lt;/h1&gt;
 &lt;p&gt;&lt;img alt="logo" src="https://raw.githubusercontent.com/KomeilParseh/mozlink/main/app/static/logo.png"&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;A program to build &lt;strong&gt;shortLinks&lt;/strong&gt;&lt;/p&gt;
@@ -7,17 +7,12 @@
 &lt;p&gt;&lt;a href="https://mozlink-komeilparseh.fandogh.cloud/"&gt;mozlink-komeilparseh.fandogh.cloud&lt;/a&gt; Temporary (perhaps permanent!) service link.&lt;/p&gt;
 &lt;p&gt;Note: Sometimes links may &lt;strong&gt;not work&lt;/strong&gt; due to site updates.&lt;/p&gt;
 &lt;h2&gt;How to run&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Install python3, pip3, virtualenv in your system.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Clone the project&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;code&gt;git clone https://github.com/KomeilParseh/mozlink.git &amp;amp;&amp;amp; cd mozlink&lt;/code&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Create a virtualenv …&lt;/li&gt;&lt;/ol&gt;</summary><content type="html">&lt;h1&gt;mozlink&lt;/h1&gt;
+&lt;p&gt;1 . Install python3, pip3, virtualenv in your system.&lt;/p&gt;
+&lt;p&gt;2 . Clone the project&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git clone https://github.com/KomeilParseh/mozlink.git &lt;span class="o"&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class="nb"&gt;cd&lt;/span&gt; mozlink
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;3 …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;mozlink&lt;/h1&gt;
 &lt;p&gt;&lt;img alt="logo" src="https://raw.githubusercontent.com/KomeilParseh/mozlink/main/app/static/logo.png"&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;A program to build &lt;strong&gt;shortLinks&lt;/strong&gt;&lt;/p&gt;
@@ -25,31 +20,26 @@
 &lt;p&gt;&lt;a href="https://mozlink-komeilparseh.fandogh.cloud/"&gt;mozlink-komeilparseh.fandogh.cloud&lt;/a&gt; Temporary (perhaps permanent!) service link.&lt;/p&gt;
 &lt;p&gt;Note: Sometimes links may &lt;strong&gt;not work&lt;/strong&gt; due to site updates.&lt;/p&gt;
 &lt;h2&gt;How to run&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Install python3, pip3, virtualenv in your system.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Clone the project&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;code&gt;git clone https://github.com/KomeilParseh/mozlink.git &amp;amp;&amp;amp; cd mozlink&lt;/code&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Create a virtualenv named venv using&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;code&gt;virtualenv -p python3 venv&lt;/code&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Connect to virtualenv using&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;code&gt;source venv/bin/activate&lt;/code&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;From the project folder, install packages using&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;code&gt;pip install -r requirements.txt&lt;/code&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Now environment is ready. Run it by&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;code&gt;python app/main.py&lt;/code&gt;&lt;/p&gt;</content><category term="programing"></category><category term="tecnology"></category><category term="programin"></category><category term="python"></category><category term="mozlink"></category></entry><entry><title>Read docx file with python in command line</title><link href="https://KomeilParseh.github.io/blog/2021/May/01/Read%20docx%20file%20with%20python%20in%20command%20line/" rel="alternate"></link><published>2021-05-01T15:00:00+04:30</published><updated>2021-05-01T15:00:00+04:30</updated><author><name>komeilParseh</name></author><id>tag:komeilparseh.github.io,2021-05-01:/blog/2021/May/01/Read docx file with python in command line/</id><content type="html">&lt;h2&gt;prerequisites:&lt;/h2&gt;
+&lt;p&gt;1 . Install python3, pip3, virtualenv in your system.&lt;/p&gt;
+&lt;p&gt;2 . Clone the project&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git clone https://github.com/KomeilParseh/mozlink.git &lt;span class="o"&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class="nb"&gt;cd&lt;/span&gt; mozlink
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;3 . Create a virtualenv named venv using&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;virtualenv -p python3 venv
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;4 . Connect to virtualenv using&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nb"&gt;source&lt;/span&gt; venv/bin/activate
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;5 . From the project folder, install packages using&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install -r requirements.txt
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;6 . Now environment is ready. Run it by&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;python app/main.py
+&lt;/pre&gt;&lt;/div&gt;</content><category term="programing"></category><category term="tecnology"></category><category term="programin"></category><category term="python"></category><category term="mozlink"></category></entry><entry><title>Read docx file with python in command line</title><link href="https://KomeilParseh.github.io/blog/2021/May/01/Read%20docx%20file%20with%20python%20in%20command%20line/" rel="alternate"></link><published>2021-05-01T15:00:00+04:30</published><updated>2021-05-01T15:00:00+04:30</updated><author><name>komeilParseh</name></author><id>tag:komeilparseh.github.io,2021-05-01:/blog/2021/May/01/Read docx file with python in command line/</id><content type="html">&lt;h2&gt;prerequisites:&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href="http://python.org/"&gt;python3&lt;/a&gt; download And install form &lt;a href="https://www.python.org/downloads/"&gt;hare&lt;/a&gt;&lt;/p&gt;
