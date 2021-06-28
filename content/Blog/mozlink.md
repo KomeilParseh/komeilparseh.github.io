@@ -1,6 +1,6 @@
 Title:Mozlink!
 Date:2021-5-4-21:00
-Modified:2021-5-23-13:21
+Modified:2021-6-18-13:21
 Category:programing
 Tags:tecnology,programin,python,mozlink
 Slug:Mozlink
@@ -19,24 +19,34 @@ Note: Sometimes links may **not work** due to site updates.
 
 ## How to run
 
-1. Install python3, pip3, virtualenv in your system.
+1 . Install python3, pip3, virtualenv in your system.
 
-2. Clone the project
+2 . Clone the project
 
-`git clone https://github.com/KomeilParseh/mozlink.git && cd mozlink`
+```bash
+git clone https://github.com/KomeilParseh/mozlink.git && cd mozlink
+```
 
-3. Create a virtualenv named venv using
+3 . Create a virtualenv named venv using
 
-`virtualenv -p python3 venv`
+```bash
+virtualenv -p python3 venv
+```
 
-4. Connect to virtualenv using
+4 . Connect to virtualenv using
 
-`source venv/bin/activate`
+```bash
+source venv/bin/activate
+```
 
-5. From the project folder, install packages using
+5 . From the project folder, install packages using
 
-`pip install -r requirements.txt`
+```bash
+pip install -r requirements.txt
+```
 
-7. Now environment is ready. Run it by
+6 . Now environment is ready. Run it by
 
-`python app/main.py`
+```bash
+python app/main.py
+```
