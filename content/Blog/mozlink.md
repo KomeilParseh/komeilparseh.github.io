@@ -7,12 +7,6 @@ Slug: Mozlink
 Authors:komeilParseh
 description: A program to build shortLinks
 
-<p align="center">
-
-# mozlink
-
-</p>
-
 <img src=https://raw.githubusercontent.com/KomeilParseh/mozlink/main/app/static/logo.png align="right">
 
 > A program to build **shortLinks**
@@ -27,30 +21,44 @@ Note: Sometimes links may **not work** due to site updates.
 
 2 . Clone the project
 
+<div class="darkmode-ignore">
+
 ```bash
 git clone https://github.com/KomeilParseh/mozlink.git && cd mozlink
 ```
 
+</div>
 3 . Create a virtualenv named venv using
+<div class="darkmode-ignore">
 
 ```bash
 virtualenv -p python3 venv
 ```
 
+</div>
 4 . Connect to virtualenv using
+<div class="darkmode-ignore">
 
 ```bash
 source venv/bin/activate
 ```
 
+</div>
+
 5 . From the project folder, install packages using
+<div class="darkmode-ignore">
 
 ```bash
 pip install -r requirements.txt
 ```
 
+</div>
+
 6 . Now environment is ready. Run it by
+<div class="darkmode-ignore">
 
 ```bash
 python app/main.py
 ```
+
+</div>
