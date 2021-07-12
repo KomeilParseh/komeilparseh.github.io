@@ -1,15 +1,19 @@
-Title:Mozlink!
+Title: Mozlink!
 Date:2021-5-4-21:00
 Modified:2021-6-18-13:21
 Category:programing
-Tags:tecnology,programin,python,mozlink
-Slug:Mozlink
+Tags:tecnology, programin, python, mozlink
+Slug: Mozlink
 Authors:komeilParseh
-description:A program to build shortLinks
+description: A program to build shortLinks
+
+<p align="center">
 
 # mozlink
 
-![logo](https://raw.githubusercontent.com/KomeilParseh/mozlink/main/app/static/logo.png)
+</p>
+
+<img src=https://raw.githubusercontent.com/KomeilParseh/mozlink/main/app/static/logo.png align="right">
 
 > A program to build **shortLinks**
 
