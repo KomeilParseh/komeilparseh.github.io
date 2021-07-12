@@ -72,6 +72,19 @@
             {% if SITESUBTITLE %}
             <h2>{{ SITESUBTITLE }}</h2>
             {% endif %}
+            <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+    <script>
+const options = {
+  bottom: '64px', // default: '32px'
+  right: '32px', // default: '32px'
+  time: '0.5s', // default: '0.3s'
+  label: '🌓', // default: ''
+  autoMatchOsTheme: true // default: true
+}
+
+const darkmode = new Darkmode(options);
+darkmode.showWidget();
+    </script>
         </div>
     </header>
     {% endif %}
